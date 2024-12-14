@@ -1,0 +1,19 @@
+bcrypt.js is a popular js library used for hashing pass securly it uses a one way hashing algorithm to ensure paswords are stored securely making it 
+almost impossibel to reverse the hash to the original pass
+
+Encrytption:
+users data and private key is personalised (developers key)
+
+
+Encryption:=userdata+private key =random text
+decryption:we have 2 parametres or inputs.. 1.randomised text 2.private key
+
+decryption:randomised text +private key=userdata
+
+
+hashing: user data and a random shuffle times value(salt) uses cpu consumption and resources
+also called hash value
+
+
+hashing userdata+saltvalue=hash
+you cannot dehash original file
